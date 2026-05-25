@@ -1,0 +1,47 @@
+/* Pura background layout styling */
+.root {
+    -fx-background-color: #f4f6f9;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* Heading Labels */
+.label {
+    -fx-text-fill: #333333;
+}
+
+/* Input boxes (TextFields) */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 4;
+    -fx-border-color: #dcdfe6;
+    -fx-border-radius: 4;
+    -fx-padding: 8;
+    -fx-text-fill: #606266;
+}
+.text-field:focused {
+    -fx-border-color: #409eff; /* Focus hone par blue outline */
+}
+
+/* Buttons Styling */
+.button {
+    -fx-background-color: #409eff;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8 15;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+}
+.button:hover {
+    -fx-background-color: #66b1ff; /* Hover karne par light blue */
+}
+.button:pressed {
+    -fx-background-color: #3a8ee6; /* Click karne par dark blue */
+}
+
+/* Live Status Log Monitor Area */
+.text-area {
+    -fx-control-inner-background: #2d3748; /* Dark grey background */
+    -fx-text-fill: #a0aec0; /* Light grey text color */
+    -fx-font-family: "Courier New", monospace;
+    -fx-font-size: 13px;
+}

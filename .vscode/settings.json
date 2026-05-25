@@ -1,0 +1,16 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "mysql-connector-j-9.7.0.jar",
+        "JavaFX/lib/javafx.base.jar",
+        "JavaFX/lib/javafx.controls.jar",
+        "JavaFX/lib/javafx.fxml.jar",
+        "JavaFX/lib/javafx.graphics.jar",
+        "JavaFX/lib/javafx.media.jar",
+        "JavaFX/lib/javafx.swing.jar",
+        "JavaFX/lib/javafx.web.jar",
+        "JavaFX/lib/javafx-swt.jar",
+        "JavaFX/lib/mysql-connector-j-9.7.0.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}

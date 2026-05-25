@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Hospital App",
+      "request": "launch",
+      "mainClass": "Main",
+      "vmArgs": "--module-path \"C:/Users/HP/OneDrive/Desktop/CRT_Java/JavaFX/javafx-sdk-17.0.19/lib\" --add-modules javafx.controls,javafx.fxml"
+    }
+  ]
+}
